@@ -1,14 +1,12 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "9.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"name": "udayadav-blog",
+	"version": "1.0.0",
+	"description": "Personal blog of Udaya Yadav",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/UDAYADAV.github.io/",
 		"start": "npx @11ty/eleventy --serve --quiet",
-		"start-ghpages": "npx @11ty/eleventy --pathprefix=/UDAYADAV.github.io/ --serve --quiet",
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
 		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
@@ -18,22 +16,17 @@
 		"url": "git@github.com:UDAYADAV/UDAYADAV.github.io.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Udaya Kumar Yadav",
+		"url": "https://udayadav.in/"
 	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=18"
 	},
-	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
-	},
 	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+		"url": "https://github.com/UDAYADAV/UDAYADAV.github.io/issues"
 	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"homepage": "https://udayadav.in/",
 	"devDependencies": {
 		"@11ty/eleventy": "^3.1.2",
 		"@11ty/eleventy-img": "^6.0.4",
