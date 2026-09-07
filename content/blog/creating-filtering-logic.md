@@ -3,7 +3,6 @@ title: Creating Filtering Logic
 description: A step-by-step refactoring journey from a naive if-chain to a full filter engine, using a property search example.
 date: 2026-09-07
 tags: java design-patterns
-draft: true
 ---
 
 *Placeholder post — working through this roadmap step by step. Will fill in code and writeup as each stage is done.*
