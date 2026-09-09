@@ -1,3 +1,10 @@
+---
+title: From If-Chains to Design Patterns
+description: Notes on how a property-search filter engine evolved, from a naive if-chain through Strategy, Composite, and classic design patterns.
+date: 2026-09-07
+tags: java design-patterns
+---
+
 Notes on how a property\-search filter engine evolved, kept mostly for future\-me. Each step is the direct consequence of a problem the previous step created — not a pattern applied for its own sake.
 
 ## 1\. The naive version: one class, if\-chains
